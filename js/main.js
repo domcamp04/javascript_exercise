@@ -76,8 +76,7 @@ let sumOfPositiveNumbers3 = (arr) => {
     const reducer = (accumulator, curr) => accumulator + curr;
     console.log(lstOne.reduce(reducer));
 }
-console.log(sumOfPositiveNumbers([1,3,5,-7,-3,4,2,-5]))
-
+console.log(sumOfPositiveNumbers3([1,3,5,-7,-3,4,2,-5]))
 
 //using for loop
 function sumOfPositiveNumbers2(arr) {
